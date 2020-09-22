@@ -8,8 +8,8 @@
 
 # Use '%A' for array-job ID, '%J' for job ID and '%a' for task ID
 
-#SBATCH --output=array-%j-%a.err
-#SBATCH --error=array-%j-%a.out
+#SBATCH --output=array-%A-%a.out
+#SBATCH --error=array-%A-%a.err
 
 #SBATCH --time=00:02:00
 
