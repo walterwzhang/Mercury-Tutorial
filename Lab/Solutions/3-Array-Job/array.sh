@@ -39,7 +39,7 @@ echo "Running job array number: $SLURM_ARRAY_TASK_ID"
 # Load necessary modules for the job
 
 # module load <modulename>
-module load R
+module load R/4.0/4.0.2
 
 #---------------------------------------------------------------------------------
 # Commands to execute below

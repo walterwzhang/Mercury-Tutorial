@@ -38,7 +38,7 @@ echo "Num Cores: $SLURM_JOB_CPUS_PER_NODE"
 # Load necessary modules for the job
 
 # module load <modulename>
-module load R
+module load R/4.0/4.0.2
 
 #---------------------------------------------------------------------------------
 # Commands to execute below

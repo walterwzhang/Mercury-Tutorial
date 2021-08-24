@@ -24,7 +24,7 @@ echo "I have $SLURM_JOB_CPUS_PER_NODE cores allocated on this job."
 
 
 # Load the Modules
-module load R
+module load R/4.0/4.0.2
 
 
 # Run your code
