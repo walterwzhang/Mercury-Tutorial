@@ -3,6 +3,7 @@
 # Author: Walter W. Zhang
 # Last Edited: 9-21-2020
 # Array Job Results Combiner
+# Submit the job with `sbatch --array=[3] array.sh`
 # Run this script after the array jobs are done to combine the saved results
 
 

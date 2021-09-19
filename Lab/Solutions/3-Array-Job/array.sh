@@ -44,6 +44,11 @@ module load R/4.0/4.0.2
 #---------------------------------------------------------------------------------
 # Commands to execute below
 
+if (( $SLURM_ARRAY_TASK_ID == 3 ))
+then
+Rscript --vanilla Bootstrap-OLS-Array-Combiner.R
+else
 Rscript --vanilla Bootstrap-OLS-Array.R
+fi
 
 #---------------------------------------------------------------------------------
